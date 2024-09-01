@@ -4,14 +4,30 @@ video {
     height: 100%;
     position: fixed;
     z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .video-container {
     height: 100vh;
     width: 100%;
-    display: flex;
+    display: relative;
     flex-direction: column;
     align-items: center;
     object-fit: contain;
 }
 
+.video-container > div {
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 60%;
+    opacity: 80%;
+    background: radial-gradient(#fff 35%, transparent 60%);
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    color: rgba(0,0,0,1);
+    font-size: 108px;
+}

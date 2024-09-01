@@ -73,26 +73,28 @@
     display: none;
   }
   
-  @media screen and (max-width: 1235px) {
+  @media screen and (max-width: 1260px) {
     .NavbarItems {
       position: relative;
     }
   
     .nav-menu {
       display: flex;
+      gap: 3rem;
       flex-direction: column;
-      width: 85%;
       position: absolute;
-      top: 110px;
+      top: 120px;
       left: -100%;
-      opacity: 80%;
+      padding-bottom: 3rem;
+      padding-top: 1rem;
       transition: all 0.5s ease;
+      word-spacing: 6px;
     }
   
     .nav-menu.active {
       background: #fff;
       left: 0;
-      opacity: 80%;
+      width: 100%;
       transition: all 0.5s ease;
       z-index: 1;
     }
@@ -100,12 +102,12 @@
     .nav-links,
     .nav-links-left {
       text-align: center;
-      vertical-align: top;
+      vertical-align: center;
       width: 100%;
       display: table;
       color: #555;
       border-left: none;
-      font-size: 24px;
+      font-size: 36px;
     }
   
     .nav-links:hover,
