@@ -13,7 +13,7 @@ body {
   width: 100%;
   background-color: white;
   color: #fff;
-  font-size: 28px;
+  font-size: 18px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
@@ -27,7 +27,8 @@ body {
 
 .image-box img {
   width: 100%;
-  height: auto;
+  height: 600px;
+  object-fit: cover;
   display: block;
 }
 
@@ -40,7 +41,7 @@ body {
 .text-box > h1 {
   color: #d60;
 }
-@media (max-width: 2224px) {
+@media (max-width: 960px) {
   .cont {
       flex-direction: column;
   }
