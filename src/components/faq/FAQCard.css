@@ -1,11 +1,11 @@
 .faq-container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 600px);
     grid-gap: 12px;
     width: 100%;
     justify-content: center;
+    margin-bottom: 15px;
 }
-
 
 .faq-card {
     border: 1px solid #ddd;
@@ -23,10 +23,12 @@
   .faq-question {
     font-size: 36px;
     margin-bottom: 10px;
+    padding: 15px;
   }
   
   .faq-answer {
     font-size: 24px;
     color: #555;
+    padding: 15px
   }
   
