@@ -3,37 +3,54 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.home,
-.services,
-.products,
-.sign-up {
+body {
+  background: linear-gradient(to bottom, rgba(221, 102, 0, .6), #fff);
+}
+
+.cont {
+  margin-top: 45px;
   display: flex;
-  height: 90vh;
-  align-items: center;
+  width: 100%;
+  background-color: white;
+  color: #fff;
+  font-size: 28px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.box {
+  flex: 1;
+  padding: 20px;
+  background-color: #555;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: 3rem;
 }
 
-.services {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.text-box > h1 {
+  color: #d60;
 }
+@media (max-width: 2224px) {
+  .cont {
+      flex-direction: column;
+  }
 
-.products {
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
+  .image-box,
+  .text-box {
+      width: 100%;
+  }
 
-.sign-up {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  .image-box img {
+      height: auto;
+  }
 }
