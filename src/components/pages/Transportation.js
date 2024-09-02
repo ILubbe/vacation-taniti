@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../App.css';
-import transportation from '../Transportation';
+import Transport from '../Transportation';
 
 function Transportation () {
     return (
         <>
-            <transportation />
+            <Transport />
         </>
     );
 }

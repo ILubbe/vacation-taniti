@@ -1,7 +1,7 @@
 import React from "react";
 import '../App.css';
 
-function food () {
+function Resturaunt () {
     return (
         <div>
             <div className="cont">
@@ -89,4 +89,4 @@ function food () {
     )
 }
 
-export default food;
+export default Resturaunt;

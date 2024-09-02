@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../App.css';
-import lodging from '../Lodging';
+import Lodge from '../Lodging';
 
 function Lodging () {
     return (
         <>
-            <lodging />
+            <Lodge />
         </>
     );
 }

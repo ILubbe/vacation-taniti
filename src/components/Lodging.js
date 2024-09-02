@@ -1,7 +1,7 @@
 import React from "react";
 import '../App.css';
 
-function lodging () {
+function Lodge () {
     return (
         <div>
             <div className="cont">
@@ -89,4 +89,4 @@ function lodging () {
     )
 }
 
-export default lodging;
+export default Lodge;

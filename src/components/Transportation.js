@@ -1,7 +1,7 @@
 import React from "react";
 import '../App.css';
 
-function transportation () {
+function Transport () {
     return (
         <div>
             <div className="cont">
@@ -89,4 +89,4 @@ function transportation () {
     )
 }
 
-export default transportation;
+export default Transport;

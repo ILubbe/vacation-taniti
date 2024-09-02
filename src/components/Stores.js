@@ -1,7 +1,7 @@
 import React from "react";
 import '../App.css';
 
-function stores () {
+function Store () {
     return (
         <div>
             <div className="cont">
@@ -89,4 +89,4 @@ function stores () {
     )
 }
 
-export default stores;
+export default Store;
