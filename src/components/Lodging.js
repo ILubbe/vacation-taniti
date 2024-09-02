@@ -4,6 +4,7 @@ import '../App.css';
 function Lodge () {
     return (
         <div>
+            <h1 className='subpageHeader'>Lodging</h1>
             <div className="cont">
                 <div className="box text-box">
                     <h1>Welcome to Taniti: Your Tropical Paradise</h1>

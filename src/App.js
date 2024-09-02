@@ -8,6 +8,7 @@ import Entertainment from './components/pages/Entertainment';
 import Food from './components/pages/Food';
 import Transportation from './components/pages/Transportation';
 import Stores from './components/pages/Stores';
+import FAQ from './components/pages/FAQ';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/food' exact Component={Food} />
           <Route path='/transportation' exact Component={Transportation} />
           <Route path='/stores' exact Component={Stores} />
+          <Route path='/faq' exact Component={FAQ} />
         </Routes>
       </Router>
     </>

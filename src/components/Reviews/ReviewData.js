@@ -1,8 +1,7 @@
-// src/data.js
 const reviews = [
     {
         name: 'John Anderson',
-        text: '"My stay on Taniti was nothing short of magical. The pristine beaches and lush rainforests provided the perfect backdrop for a relaxing getaway. The local cuisine was exceptional, and the hospitality of the Tanitian people made every moment special. I can\’t wait to return!"',
+        text: '"My stay on Taniti was nothing short of magical. The pristine beaches and lush rainforests provided the perfect backdrop for a relaxing getaway. The local cuisine was exceptional, and the hospitality of the Tanitian people made every moment special. I can’t wait to return!"',
         rating: 5,
         image: 'images/man.jpg'
     },

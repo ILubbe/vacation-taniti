@@ -4,6 +4,7 @@ import '../App.css';
 function Transport () {
     return (
         <div>
+            <h1 className='subpageHeader'>Transportation</h1>
             <div className="cont">
                 <div className="box text-box">
                     <h1>Welcome to Taniti: Your Tropical Paradise</h1>

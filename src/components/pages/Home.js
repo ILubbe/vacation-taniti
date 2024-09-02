@@ -1,9 +1,9 @@
 import React from 'react';
 import '../../App.css';
-import '../Reviews/ReviewCard.css';
+import '../reviews/ReviewCard.css';
 import Video from '../Video';
-import ReviewCard from '../Reviews/ReviewCard';
-import reviews from '../Reviews/ReviewData';
+import ReviewCard from '../reviews/ReviewCard';
+import reviews from '../reviews/ReviewData';
 import About from '../About';
 
 function Home () {
