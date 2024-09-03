@@ -49,6 +49,12 @@ body {
   color: #d60;
 }
 
+.text-box .italics,
+.text-box a {
+  color: #2b4;
+  text-decoration: none;
+}
+
 .text-box li {
   background: url('../public/images/logo.png') no-repeat left center; /* Set your custom image */
   background-size: 20px 20px; /* Size of the image */
