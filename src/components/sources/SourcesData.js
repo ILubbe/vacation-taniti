@@ -5,7 +5,7 @@ const SourcesData = [
         description: "Flower Logo",
         classification: "Image",
         src: "images/logo.png",
-        apa: "Freepik. (n.d.). Nasturtium icon. Freepik. ",
+        apa: "Freepik. (n.d.). Nasturtium icon. Freepik. ", // keep a space on end of every apa value.
         url: "https://www.freepik.com/icon/nasturtium_9103465"
     }
 ]
