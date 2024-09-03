@@ -1,4 +1,4 @@
-export const FAQData = [
+const FAQData = [
     {
       question: "Which power outlets does Taniti use?",
       answer: "Power outlets are 120 volts (the same as in the United States)."

@@ -1,0 +1,63 @@
+.book-now {
+    max-width: 900px;
+    margin: 15px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #888;
+}
+
+.book-now h1 {
+    text-align: center;
+    font-size: 72px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 4px;
+    height: 60px;
+    font-size: 24px;
+}
+
+.form-group textarea {
+    height: 300px;
+    resize: vertical;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder,
+.form-group input[type=date] {
+    font-size: 24px;
+    color: #555;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2b4;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}

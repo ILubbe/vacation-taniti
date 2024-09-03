@@ -42,6 +42,18 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  list-style-type: none;
+}
+
+.text-box .str {
+  color: #d60;
+}
+
+.text-box li {
+  background: url('../public/images/logo.png') no-repeat left center; /* Set your custom image */
+  background-size: 20px 20px; /* Size of the image */
+  padding-left: 30px; /* Space to the left of the text to accommodate the image */
+  line-height: 1.5; /* Adjust line height for better spacing */
 }
 
 .text-box > h1 {
