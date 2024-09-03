@@ -1,3 +1,18 @@
+# Vacation Taniti
+## Vacation Taniti Front End written with React Framework
+
+## To Run, Build the container with the provided Containerfile and run the container.
+
+For example: (Docker works too)
+
+podman build -it react-vacation-taniti:latest .
+
+podman run -d --rm -p 3000:3000 --name vacation-taniti react-vacation-taniti:latest
+
+## To kill:
+
+podman stop vacation-taniti
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
