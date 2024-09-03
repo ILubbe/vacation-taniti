@@ -67,7 +67,7 @@
   .nav-links:hover,
   .nav-links-left:hover,
   Link {
-    color: #d60;
+    color: #e70;
   }
   
   .menu-icon {
@@ -113,7 +113,7 @@
   
     .nav-links:hover,
     .nav-links-left:hover {
-      color: #d60;
+      color: #e70;
       border-radius: 0;
     }
   

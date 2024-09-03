@@ -46,7 +46,7 @@ body {
 }
 
 .text-box .str {
-  color: #d60;
+  color: #e70;
 }
 
 .text-box .italics,
@@ -63,7 +63,7 @@ body {
 }
 
 .text-box > h1 {
-  color: #d60;
+  color: #e70;
 }
 @media (max-width: 960px) {
   .cont {
