@@ -5,7 +5,7 @@
 
 For example: (Docker works too)
 
-podman build -it react-vacation-taniti:latest .
+podman build -t react-vacation-taniti:latest .
 
 podman run -d --rm -p 3000:3000 --name vacation-taniti react-vacation-taniti:latest
 
