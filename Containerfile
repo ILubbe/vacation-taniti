@@ -7,8 +7,9 @@ RUN npm install --omit dev && \
 
 COPY . .
 
-RUN npm run build
+RUN npm run build && \
+    npm install -g serve
 
 EXPOSE 3000
 
-ENTRYPOINT ["npm", "start"]
+ENTRYPOINT ["serve", "-s", "build"]
