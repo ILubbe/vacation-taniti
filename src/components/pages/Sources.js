@@ -1,46 +1,37 @@
 import React from 'react';
 import '../../App.css';
+import SourcesTable from '../sources/Sources';
+import SourcesData from '../sources/SourcesData';
 
-function Sources () {
+const tableStyle = {
+    border: '1px solid black',
+    padding: '5px'
+};
 
-    const imageStyle = {
-        maxWidth: '100px',
-        maxHeight: '100px'
-    };
+const Sources = () => (
+    <table>
+        <thead>
+            <tr>
+                <th style={tableStyle}>Page(s) | Location | Description | Classification | Image/Video | Source</th>
+            </tr>
+        </thead>
+        {SourcesData.map((item, index) => (
+            <SourcesTable
+                key={index}
+                page={item.page}
+                location={item.location}
+                description={item.description}
+                classification={item.classification}
+                src={item.src}
+                apa={item.apa}
+                url={item.url}
+            />
+        ))}
+    </table>
+);
 
-    const tableStyle = {
-        border: '1px solid black',
-        padding: '5px'
-    };
-
-    return (
-        <table>
-            <thead>
-                <tr>
-                    <th style={tableStyle}>Page(s)</th>
-                    <th style={tableStyle}>Location</th>
-                    <th style={tableStyle}>Description</th>
-                    <th style={tableStyle}>Classification</th>
-                    <th style={tableStyle}>Image/Video</th>
-                    <th style={tableStyle}>Source</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td style={tableStyle}>All</td>
-                    <td style={tableStyle}>Navbar left side most prominently, and all throughout.</td>
-                    <td style={tableStyle}>Flower logo</td>
-                    <td style={tableStyle}>Image</td>
-                    <td style={tableStyle}><img src="images/logo.png" alt="" style={imageStyle}></img></td>
-                    <td style={tableStyle}>Freepik. (n.d.). Nasturtium icon. Freepik. <a href="https://www.freepik.com/icon/nasturtium_9103465" target="_blank">https://www.freepik.com/icon/nasturtium_9103465</a></td>
-                </tr>
-            </tbody>
-        </table>
-    );
-}
 
 export default Sources;
-
 /*
 https://www.freepik.com/icon/nasturtium_9103465 (logo)
 https://www.pexels.com/video/drone-footage-of-a-tropical-beach-in-the-dominican-republic-3223480/ (beach) (video)
