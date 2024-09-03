@@ -3,18 +3,8 @@ import '../../App.css';
 import SourcesTable from '../sources/Sources';
 import SourcesData from '../sources/SourcesData';
 
-const tableStyle = {
-    border: '1px solid black',
-    padding: '5px'
-};
-
 const Sources = () => (
-    <table>
-        <thead>
-            <tr>
-                <th style={tableStyle}>Page(s) | Location | Description | Classification | Image/Video | Source</th>
-            </tr>
-        </thead>
+    <div>
         {SourcesData.map((item, index) => (
             <SourcesTable
                 key={index}
@@ -27,7 +17,7 @@ const Sources = () => (
                 url={item.url}
             />
         ))}
-    </table>
+    </div>
 );
 
 

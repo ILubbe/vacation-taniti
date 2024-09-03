@@ -22,7 +22,7 @@ const Book = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        const today = new Date;
+        const today = new Date();
         const travelDate = new Date(formData.travelDate);
         const returnDate = new Date(formData.returnDate);
 
