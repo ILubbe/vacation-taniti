@@ -59,6 +59,11 @@ function Navbar() {
                             STORES
                         </Link>
                     </li>
+                    <li className='nav-item'>
+                        <Link to='/sources' className='nav-link-sources' onClick={closeMobileMenu}>
+                            MEDIA SOURCES
+                        </Link>
+                    </li>
                 </ul>
             </div>
         </nav>
